@@ -12,7 +12,7 @@ Process:
 ![image](https://github.com/user-attachments/assets/b8cd9da6-8d80-4036-bb4b-8c193be44609)
 Brightfield images are too noisy, so use fluorescence field images:
 1. Use OpenCV to load and display images in 16-bit format
-2.Gussian Blur:reduce the noise
+2. Gussian Blur:reduce the noise
 3. Morphological manipulation-swelling, corrosion:Eliminate small noises and subtle boundary interference
 4. Extract boundaries information:Convenient for feature extraction
 Only the visual features of cells on the top mother machine are extracted
